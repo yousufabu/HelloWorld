@@ -11,7 +11,7 @@ public class UseEncaplulation {
 //		cap.setLength(l);
 //		cap.setLength(4);
 		int a= cap.setHeight(11);
-		int b= cap.setLength(12);
+		int b= cap.setLength(0);
 		int c= cap.setWedth(13);
 		
 		//cap.setDiamention(a, b, c);

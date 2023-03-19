@@ -13,7 +13,12 @@ public class Encapsulation {
 		}
 		//these are set methods
 		public int setLength(int l) {
-			length =l;
+			if (l<=0) {
+				length =l;
+			}
+			else {
+				System.out.println("invalid Length");
+			}
 			//System.out.println("Length=" +length );
 			return length;
 			
@@ -24,6 +29,7 @@ public class Encapsulation {
 		}
 		
 		public int setHeight(int h) {
+		
 			height =h;
 			return height;
 		}
